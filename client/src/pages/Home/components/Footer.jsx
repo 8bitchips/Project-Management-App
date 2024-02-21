@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import styled from 'styled-components';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -74,7 +75,7 @@ const Copyright = styled.p`
 function Footer() {
   return (
     <FooterContainer>
-      <Logo>VEXA</Logo>
+      <Logo>PMANGE</Logo>
       <Nav>
         <NavLink href="#home">Home</NavLink>
         <NavLink href="#features">Features</NavLink>
@@ -88,7 +89,7 @@ function Footer() {
         <SocialMediaIcon href="#"><InstagramIcon /></SocialMediaIcon>
       </SocialMediaIcons>
       <Copyright>
-        &copy; 2023 Vexa. All rights reserved.
+        &copy; PKSHARMA All rights reserved.
       </Copyright>
     </FooterContainer>
   );

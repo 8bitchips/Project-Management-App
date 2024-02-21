@@ -54,15 +54,15 @@ const TeamContainer = styled.div`
 
 const Team = () => {
   const member = [{
-    photo: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    name: "Rishav Chanda",
+    photo: "https://avatars.githubusercontent.com/u/77106007?v=4",
+    name: "Pushpendra Kumar",
     title: "Full-Stack Developer",
-    bio: "I have expertise in full-stack web development, Android app development, and MERN stack development. I am knowledgeable in various programming languages, frameworks, and technologies and strive to create high-quality, user-friendly applications."
+    bio: "I have expertise in full-stack web development and MERN stack development. I am knowledgeable in various programming languages, frameworks, and technologies and strive to create high-quality, user-friendly applications."
   }]
   return (
     <TeamWrapper id="team">
-      <Title>Meet the crew</Title>
-      <Description>We're a small, remote team working on interesting problems at the edge of compute.</Description>
+      <Title>Assignment For</Title>
+      <Description>OneLogica </Description>
       <TeamContainer>
         {member.map((member, index) => (
           <TeamMember key={index} photo={member.photo} name={member.name} title={member.title} bio={member.bio} />

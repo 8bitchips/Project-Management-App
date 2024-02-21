@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import logo from './logo.svg';
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";

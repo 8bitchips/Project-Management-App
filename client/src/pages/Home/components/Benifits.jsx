@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import styled from 'styled-components';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import ForumIcon from '@mui/icons-material/Forum';

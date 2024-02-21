@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import styled from 'styled-components';
 import HeroBgAnimation from '../components/HeroBgAnimation'
 import Groups3Icon from '@mui/icons-material/Groups3';
